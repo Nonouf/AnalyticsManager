@@ -19,7 +19,7 @@ public final class AnalyticsManager {
 
   /// A closure that enable logging
   public var logger: ((String) -> Void)?
-  
+
   fileprivate var providers: [AnalyticsProvider] = []
 
   /**
@@ -88,6 +88,7 @@ extension AnalyticsManager {
 }
 
 // MARK: Logger
+
 extension AnalyticsManager {
   fileprivate func log(message: String) {
     logger?("[AnalyticsManager] \(message)")
