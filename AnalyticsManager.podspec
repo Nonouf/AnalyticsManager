@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   s.author             = { "Arnaud Schildknecht" => "arnaud.schild@gmail.com" }
   s.social_media_url   = "https://twitter.com/Nonouf11"
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/Nonouf/AnalyticsManager.git", :commit => "287a250902ec746c13446847642c7d9633d50ece" }
+  s.source       = { :git => "https://github.com/Nonouf/AnalyticsManager.git", :tag => "#{s.version}" }
   s.source_files  = "AnalyticsManager", "AnalyticsManager/**/*.{h,m}"
 end
